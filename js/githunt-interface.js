@@ -5,7 +5,6 @@ $(document).ready(function() {
   $('#search').submit(function(event) {
     event.preventDefault();
     var username = $('#username').val();
-    $('#username').val("");
     user.getInfo(username);
   });
 });
