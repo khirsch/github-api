@@ -4,7 +4,7 @@
 
 ## Description
 
-**GitHunt** is a web app that allows you to retrieve Github information by username.
+GitHunt is a web app that allows you to retrieve Github information by username.
 
 ## Setup/Installation Requirements
 
@@ -17,7 +17,7 @@ To install:
 
 1. Clone this repository to your desktop: `git clone https://github.com/khirsch/githunt.git`
 2. Navigate to the 'githunt' folder
-3. Run the following commands in this order:
+3. Run these commands in the following order:
   * `$ npm install`
   * `$ bower install`
   * `$ gulp build`
