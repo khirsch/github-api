@@ -5,6 +5,7 @@ $(document).ready(function() {
   $('#search').submit(function(event) {
     event.preventDefault();
     var username = $('#username').val();
+    $('#repositories').empty();
     user.getInfo(username);
     user.getRepos(username);
   });
