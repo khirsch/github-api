@@ -6,20 +6,27 @@ function User(username) {
 
 User.prototype.getInfo = function(username) {
   $.get('https://api.github.com/users/' + username + '?access_token=' + apiKey).then(function(response){
-    console.log(response);
-    $('#name').text(response.name);
-    $('#html_url').text(response.html_url);
+
+    var url = response.html_url;
+    var name = response.name;
+
+    $('#name').text(name);
+    $('#html_url').text(url);
+    $('a').attr('href', url);
+
   }).fail(function(error) {
     $('#output').text(error.responseJSON.message);
   });
+
 };
 
 User.prototype.getRepos = function(username) {
   $.get('https://api.github.com/users/' + username + '/repos?/access_token=' + apiKey).then(function(response){
-    console.log(response[0].name);
+
     for(var i = 0; i < response.length; i++){
-      $('#repositories').append("<li>" + response[i].name + "</li>");
+      $('#repositories').append('<li>' + response[i].name + '</li>');
     }
+
   });
 };
 
