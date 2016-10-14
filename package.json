@@ -1,12 +1,14 @@
 {
-  "name": "github-api",
+  "name": "githunt",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": [
+    "Katrina Hirsch <katrina.hirsch@gmail.com>"
+  ],
   "license": "ISC",
   "devDependencies": {
     "bower-files": "^3.14.1",
