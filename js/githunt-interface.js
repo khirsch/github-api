@@ -6,5 +6,6 @@ $(document).ready(function() {
     event.preventDefault();
     var username = $('#username').val();
     user.getInfo(username);
+    user.getRepos(username);
   });
 });

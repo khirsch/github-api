@@ -14,4 +14,13 @@ User.prototype.getInfo = function(username) {
   });
 };
 
+User.prototype.getRepos = function(username) {
+  $.get('https://api.github.com/users/' + username + '/repos?/access_token=' + apiKey).then(function(response){
+    console.log(response[0].name);
+    for(var i = 0; i < response.length; i++){
+      $('#repositories').append("<li>" + response[i].name + "</li>");
+    }
+  });
+};
+
 exports.userModule = User;
