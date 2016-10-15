@@ -10,7 +10,7 @@ GitHunt is a web app that allows you to retrieve Github information by username.
 
 This app requires:
 
-1. Node.js & npm
+1. Node.js & NPM
 2. Bower
 
 To install:
