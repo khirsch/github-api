@@ -35,11 +35,14 @@ Please send any questions or concerns to katrina.hirsch@gmail.com.
 
 * HTML
 * CSS
+  * Bootstrap
+* SASS
 * JavaScript
-* jQuery
-* Bootstrap
+  * jQuery
 * Gulp
 * Node.js
+  * NPM / Bower
+* Github API v3
 * [Flaticon](http://flaticon.com)
 
 ### License
