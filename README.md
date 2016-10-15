@@ -25,7 +25,7 @@ To install:
 
 ## Known Bugs
 
-There are no known bugs at this time.
+https://github.com/khirsch/githunt/issues
 
 ## Support & Contact Details
 
