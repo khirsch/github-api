@@ -34,15 +34,12 @@ Please send any questions or concerns to katrina.hirsch@gmail.com.
 ## Technologies Used
 
 * HTML
-* CSS
-  * Bootstrap
+* CSS (Bootstrap)
 * SASS
-* JavaScript
-  * jQuery
+* JavaScript (jQuery)
 * Gulp
-* Node.js
-  * NPM / Bower
-* Github API v3
+* Node.js (NPM/Bower)
+* [Github API v3](https://developer.github.com/v3/)
 * [Flaticon](http://flaticon.com)
 
 ### License
