@@ -29,7 +29,7 @@ https://github.com/khirsch/githunt/issues
 
 ## Support & Contact Details
 
-Please report any questions or concerns to katrina.hirsch@gmail.com.
+Please send any questions or concerns to katrina.hirsch@gmail.com.
 
 ## Technologies Used
 
