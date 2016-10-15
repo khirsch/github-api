@@ -1,6 +1,12 @@
 $primary-color: #529d67;
 $secondary-color: #000000;
 
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
 body {
   color: $secondary-color;
   background: $primary-color;
@@ -19,12 +25,12 @@ h1 {
   text-align: center;
 }
 
-input {
-  width: 30%;
-}
-
 a, a:hover, a:visited {
   color: $primary-color;
+}
+
+.form-control {
+  width: 50%;
 }
 
 .btn, .btn:focus, .btn:active {
@@ -48,7 +54,10 @@ a, a:hover, a:visited {
 }
 
 #search {
-  width: 90%;
-  display: block;
-  margin: 0 auto;
+  text-align: center;
+}
+
+#start {
+  margin-top: 50px;
+  text-align: center;
 }

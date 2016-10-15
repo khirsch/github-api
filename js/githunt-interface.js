@@ -8,5 +8,6 @@ $(document).ready(function() {
     $('#repositories').empty();
     user.getInfo(username);
     user.getRepos(username);
+    $('#start').hide();
   });
 });
