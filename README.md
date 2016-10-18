@@ -19,9 +19,9 @@ To install:
 2. Navigate to the 'githunt' folder
 3. Create a file in the top level of the folder called '.env'
 4. In the '.env' file, type the following: `exports.apiKey = "";`
-5. Insert your Github API personal access token (you can get one [here](https://github.com/settings/tokens)) between the quotes, then save the file.
-6. Edit the ".gitignore" file to include your '.env' file (optional)
-7. Run these commands in the following order:
+5. Insert your Github API personal access token between the quotes (you can get one [here](https://github.com/settings/tokens))
+6. Edit the ".gitignore" file to include your '.env' file (optional but recommended)
+7. Once all of your changes have been saved, run these commands in the following order:
   * `$ npm install`
   * `$ bower install`
   * `$ gulp build`
