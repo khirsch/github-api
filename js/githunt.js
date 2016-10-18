@@ -15,7 +15,7 @@ User.prototype.getInfo = function(username) {
     $('a').attr('href', url);
 
   }).fail(function(error) {
-    $('#output').html("<p>Uh-oh! It seems that <strong>" + username + "</strong> does not exist within the Github database. Try entering a different username.</p>");
+    $('#output').html("<p>Uh-oh! It seems that <strong>" + username + "</strong> does not exist within the GitHub database. Try entering a different username.</p>");
   });
 
 };

@@ -4,7 +4,7 @@
 
 ## Description
 
-GitHunt is a web app that allows you to retrieve Github information by username.
+GitHunt is a web app that allows you to retrieve GitHub information by username.
 
 ## Setup/Installation Requirements
 
@@ -19,7 +19,7 @@ To install:
 2. Navigate to the 'githunt' folder
 3. Create a file in the top level of the folder called '.env'
 4. In the '.env' file, type the following: `exports.apiKey = "";`
-5. Insert your Github API personal access token between the quotes (you can get one [here](https://github.com/settings/tokens))
+5. Insert your GitHub API personal access token between the quotes (you can get one [here](https://github.com/settings/tokens))
 6. Edit the ".gitignore" file to include your '.env' file (optional but recommended)
 7. Once all of your changes have been saved, run these commands in the following order:
   * `$ npm install`
@@ -43,7 +43,7 @@ Please send any questions or concerns to katrina.hirsch@gmail.com.
 * JavaScript (jQuery)
 * Gulp
 * Node.js (NPM/Bower)
-* [Github API v3](https://developer.github.com/v3/)
+* [GitHub API v3](https://developer.github.com/v3/)
 * [Flaticon](http://flaticon.com)
 
 ### License
